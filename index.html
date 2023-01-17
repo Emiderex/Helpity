@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Helpity</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <header> 
+                <div class="logo">
+                    <h1>HELP<span style="color:rgb(0, 0, 0);">ITY</span></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <a class="btn" href="#"><button>DONATE</button></a>
+            </header>
+        </div>
+
+        <div class="landing_page">
+            <h1>
+                 <span> <!--<img src="./Assets/Image/SVG/Mark-01.svg" alt="">--> Charity </span>is a way of life. 
+            </h1>
+
+            <p>Find and volunteer for the causes that matter to you - right in your neighborhood</p>
+            <p>Take action in your community</p>
+                <div class="search">
+                    <!-- <input type="search" name="Search" id="srch" placeholder="Search..."> -->
+                    <select name="country" id="country_sel">
+                        <option value="None">-None-</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="America">America</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Europe">Europe</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Japan">Japan</option>
+                    </select>
+                    <input type="text" name="city" id="city_txt">
+                    <a href="#">
+                        <button>
+                            <img src="./Assets/Image/SVG/Search-01.svg" alt="">
+                        </button>
+                    </a>
+                </div>
+        </div>
+
+        <div class="about">
+            <!-- <h1 style="text-align: center;">About Us</h1> -->
+            <div class="box_container">
+                <div class="boxes">
+                        <img src="./Assets/Image/SVG/About-02.svg" width="200px" alt="">
+                    <div class="card-body">
+                        <h3>LOREM</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus
+                             quam tempora repellat doloribus odio.</p>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="card-body" style="padding-top: 30px;">
+                        <h3>LOREM</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus
+                            quam tempora repellat doloribus odio.</p>
+                    </div>
+                    <img src="./Assets/Image/SVG/Helping_hands-07.svg" width="200px" style="margin-top: -15px;" alt="">
+                </div>
+                <div class="boxes">
+                    <img src="./Assets/Image/SVG/Hand-03-04.svg" width="250px" alt="">
+                    <div class="card-body" style="margin-top: -45px;" >
+                        <h3>LOREM</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus
+                            quam tempora repellat doloribus odio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team">
+            <h1> MEET OUR <br> <span>EXECUTIVE</span> TEAM</h1>
+            <p>There’s nothing I really wanted to do in life that I wasn’t <br> able to get good at. That’s my skill.</p>
+        </div>
+        
+        <div class="spon">
+            <h3>Supported By</h3>
+            <div class="sponsorship">
+                <div class="sponsor">
+                    <img src="./Assets/Image/SVG/logo-coinbase.svg" width="120%" alt="" srcset="">
+                </div>
+                <div class="sponsor">
+                    <img src="./Assets/Image/SVG/logo-nasa.svg" width="120%" alt="" srcset="">
+                </div>
+                <div class="sponsor">
+                    <img src="./Assets/Image/SVG/logo-spotify.svg" width="120%" alt="" srcset="">
+                </div>
+                <div class="sponsor">
+                    <img src="./Assets/Image/SVG/logo-vodafone.svg" width="120%" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="counter">
+                <div class="count">
+                    <h1>3,002</h1>
+                    <h5>Countries</h5>
+                    <p>have been reached for the <br>search</p>
+                </div>
+                <div class="count">
+                    <h1>
+                        <span id="state3" countto="24">1,534+</span>
+                    </h1>
+                    <h5>Cities</h5>
+                    <p>have been reached and helped <br> by our organization</p>
+                </div>
+                <div class="count">
+                    <h1>
+                        <span id="state3" countto="24">24/7</span>
+                    </h1>
+                    <h5>Support</h5>
+                    <p>Engage team members that responds on time</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="message">
+                <div class="cont_message">
+                    <div class="contact_head">
+                        <h3>Contact Us</h3>
+                        <p>For further questions, including donations, <br> email hello@helpity.com or contact using our contact form.</p>
+                    </div>
+                    <form action="" id="messages" method="post" autocomplete="off">
+                        <div class="fullname">
+                            <div class="left">
+                                <label>Full Name</label> <br>
+                                <input type="text" name="fullname" placeholder="Full Name" id="text">
+                            </div>
+                        </div>
+                        <div class="email" >
+                            <div class="left"  style="margin-left: 7px;">
+                                <label>Email</label> <br>
+                                <input type="email" name="" placeholder="Email"  id="text">
+                            </div>
+                        </div>
+                        <div class="clear">&nbsp;</div>
+                        <div class="textarea">
+                            <label>How can we help?</label><br>
+                            <textarea name="message" id="message" rows="6" placeholder="Describe your problem.."></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" style="padding: 80px;">
+            <div class="logo">
+                <h1>HELP<span style="color:rgb(0, 0, 0);">ITY</span></h1>
+            </div>
+            <div class="content">
+                <div class="meet">
+                    <h4>Meet Our Team</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
