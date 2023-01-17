@@ -128,17 +128,16 @@ span img {
     border: none;
     border-radius: 3px;
     margin-left: 5px;
-    height: 40px; 
+    height: 50px; 
     width: 45px;
 }
 
 .search button img {
     width: 40px;
-    margin: -9px 0 0 -16px;
+    margin: -4px 0 0 -18px;
 }
 
 #country_sel, #city_txt {
-    height: 8vh;
     font-size: 0.875rem;
     font-weight: 600;
     color: rgb(73, 80, 87);
