@@ -298,7 +298,7 @@ span img {
 .cont_message {
     padding: 30px;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .contact_head {
