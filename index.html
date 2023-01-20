@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Assets/css/font-awesome/all.min.css">
+    <script src="./Assets/Script/Navigation.js"></script>
     <title>Helpity</title>
 </head>
 <body>
@@ -21,8 +23,19 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-                <a class="btn" href="#"><button>DONATE</button></a>
-            </header>
+                <a class="btn" href="#"><button id="btn">DONATE</button></a>
+                <div id="triple-button" >
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <span class="link">
+                            <a href="#footer" target="_blank">About</a>
+                            <a href="#" target="_blank">Services</a>
+                            <a href="#" target="_blank">Contact</a>
+                        </span>
+                    </div>
+                    <span class="closebtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+            </header>      
         </div>
 
         <div class="landing_page">
@@ -48,7 +61,7 @@
                     </select>
                     <input type="text" name="city" id="city_txt">
                     <a href="#">
-                        <button>
+                        <button id="btn">
                             <img src="./Assets/Image/SVG/Search-01.svg" alt="">
                         </button>
                     </a>
@@ -85,9 +98,14 @@
             </div>
         </div>
 
-        <div class="team">
-            <h1> MEET OUR <br> <span>EXECUTIVE</span> TEAM</h1>
-            <p>There’s nothing I really wanted to do in life that I wasn’t <br> able to get good at. That’s my skill.</p>
+        <div class="members">
+            <div class="team">
+                <h1> MEET OUR <br> <span>EXECUTIVE</span> TEAM</h1>
+                <p>There’s nothing I really wanted to do in life that I wasn’t <br> able to get good at. That’s my skill.</p>
+            </div>
+            <div class="teammates">
+                
+            </div>
         </div>
         
         <div class="spon">
@@ -155,22 +173,41 @@
                             <label>How can we help?</label><br>
                             <textarea name="message" id="message" rows="6" placeholder="Describe your problem.."></textarea>
                         </div>
-                        <div class="button">
-                            <button type="submit">Send Message</button>
+                        <div class="button" >
+                            <button id="btn" type="submit">Send Message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
 
-        <div class="footer" style="padding: 80px;">
-            <div class="logo">
-                <h1>HELP<span style="color:rgb(0, 0, 0);">ITY</span></h1>
-            </div>
+        <div class="footer">
             <div class="content">
-                <div class="meet">
-                    <h4>Meet Our Team</h4>
+                <div class="logo logos">
+                    <h1>HELP<span style="color:rgb(0, 0, 0);">ITY</span></h1>
+                    <p>Helping Others</p>
                 </div>
+                <div class="sections section1">
+                    <h4>Our Organization</h4>
+                    <h5><a href="#">Meet Our Team</a></h5>
+                    <h5><a href="#">About Us</a></h5>
+                    <h5><a href="#">Affiliate Program</a></h5>
+                </div>
+                <div class="sections section2">
+                    <h4>Help $ Support</h4>
+                    <h5><a href="#">Contact Us</a></h5>
+                    <h5><a href="#">Sponsorships</a></h5>
+                    <h5><a href="#">FAQ</a></h5>
+                </div>
+                <div class="sections section3">
+                    <h4>Legal</h4>
+                    <h5><a href="#">Terms & Conditions</a></h5>
+                    <h5><a href="#">Privacy Policy</a></h5>
+                    <h5><a href="#">License</a></h5>
+                </div>
+            </div>
+            <div class="foot_word" id="footer">
+                <p>All right reserved. Copyright © 2023 <a href="#" target="_blank" rel="noopener noreferrer">Helpity</a></p>
             </div>
         </div>
     </div>
